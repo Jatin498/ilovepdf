@@ -2,7 +2,7 @@
 # Feel free to use and contribute to this project. Your contributions are welcome!
 # copyright ©️ 2021 nabilanavab
 
-file_name = "ILovePDF/configs/db.py"
+file_name = "@AdultManhwa_nation/configs/db.py"
 
 import os
 
