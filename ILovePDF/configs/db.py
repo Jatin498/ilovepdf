@@ -6,15 +6,15 @@ file_name = "ILovePDF/configs/db.py"
 
 import os
 
-DATA = {}  # save user api, fname, capt
+DATA = {-1001956094156}  # save user api, fname, capt
 
-myID = []  # saves bot info if UPDATE_CHANNEL
+myID = [-1001956094156]  # saves bot info if UPDATE_CHANNEL
 
-GROUPS = []  # save groups id and checks each times
+GROUPS = [-1001956094156]  # save groups id and checks each times
 
-ping_list = [] # save users how need notify after bot reastart from stop
+ping_list = [-1001956094156] # save users how need notify after bot reastart from stop
 
-invite_link = []  # just saves invitation link
+invite_link = [-1001956094156]  # just saves invitation link
 
 BANNED_USR_DB, BANNED_GRP_DB = [], []  # Load Banned Users Id
 
