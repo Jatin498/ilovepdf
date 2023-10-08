@@ -3,19 +3,19 @@
 
 file_name = "ILovePDF/configs/__init__.py"
 
-__author__ = "nabilanavab"
-__email__ = "nabilanavab@gmail.com"
-__telegram__ = "telegram.dog/nabilanavab"
-__copyright__ = "Copyright 2021, nabilanavab"
+__author__ = "RarelySukuna"
+__email__ = "mk9809200@gmail.com"
+__telegram__ = "telegram.dog/RarelySukuna"
+__copyright__ = "Copyright 2021, RarelySukuna"
 
 iLovePDF = '''
   _   _                  ___  ___  ____ ™
  | | | |   _____ _____  | _ \|   \|  __| 
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
-                         ❤ [Nabil A Navab] 
-                         ❤ Email: nabilanavab@gmail.com
-                         ❤ Telegram: @nabilanavab
+                         ❤ [RarelySukuna] 
+                         ❤ Email: mk9809200@gmail.com 
+                         ❤ Telegram: @RarelySukuna 
 '''
 
 # If you have any questions or suggestions, please feel free to reach out.
