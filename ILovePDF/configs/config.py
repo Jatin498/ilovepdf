@@ -2,25 +2,25 @@
 # Feel free to use and contribute to this project. Your contributions are welcome!
 # copyright ©️ 2021 nabilanavab
 
-file_name = "ILovePDF/configs/config.py"
+file_name = "@AdultManhwa_nation/configs/config.py"
 
 import os
 
 class bot(object):
 
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("23902408")
+    API_HASH = os.environ.get("6a36a4ef2f07d63aeba7b53b99c64d73")
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = os.environ.get("6666983442:AAHWN4SKS3QqrzWUYnfXRt8PKhP-rd8vjHA")
 
 
 class dm(object):
 
     # add admins Id list by space seperated (Optional)
-    ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS = list(set(int(x) for x in os.environ.get("5086525318", "").split()))
+    ADMINS.append(5086525318)
 
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
 
@@ -31,7 +31,7 @@ class dm(object):
 class group(object):
 
     # add admins Id list by space seperated (Optional)
-    ADMIN_GROUPS = list(set(int(x) for x in os.environ.get("ADMIN_GROUPS", "").split()))
+    ADMIN_GROUPS = list(set(int(x) for x in os.environ.get("5086525318", "").split()))
 
     # if admin group only (True)
     ADMIN_GROUP_ONLY = os.environ.get("ADMIN_GROUP_ONLY", False)
@@ -68,7 +68,7 @@ class settings(object):
     )
 
     # channel id for forced Subscription with -100 (Optional)
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", False)
+    UPDATE_CHANNEL = os.environ.get("-1001853231882", True)
 
     # get convertAPI secret (Optional)
     CONVERT_API = os.environ.get("CONVERT_API", False)
@@ -91,11 +91,11 @@ class settings(object):
 
     FEEDBACK = "https://telegram.dog/ilovepdf_bot"
 
-    SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE = "https://t.me/ANIME_domain1"
 
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 5086525318, "RarelySukuna"
 
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://t.me/ANIME_domain1"
 
     REFER_BETA = False if os.environ.get("REFER_BETA", "False") == "False" else True
 
