@@ -1,7 +1,7 @@
 # This module is part of https://github.com/nabilanavab/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
 
-file_name = "ILovePDF/configs/__init__.py"
+file_name = "@AdultManhwa_nation/configs/__init__.py"
 
 __author__ = "RarelySukuna"
 __email__ = "mk9809200@gmail.com"
