@@ -2,7 +2,7 @@
 # Feel free to use and contribute to this project. Your contributions are welcome!
 # copyright ©️ 2021 nabilanavab
 
-file_name = "ILovePDF/configs/log.py"
+file_name = "@AdultManhwa_nation/configs/log.py"
 
 import os
 from asyncio import sleep
@@ -21,13 +21,13 @@ if dataBASE.MONGODB_URI:
 
 class log:
 
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", False)  # Log Channel (Optional)
+    LOG_CHANNEL = os.environ.get("-1001956094156", True)  # Log Channel (Optional)
 
-    LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
+    LOG_FILE = os.environ.get("LOG_FILE", False)  # "RarelySukuna.log"
 
-    LOG_TEXT = "#newUser @nabilanavab/ILovePDF\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT = "#newUser @RarelySukuna/@AdultManhwa_nation \n\nID: `{}`\nView Profile: {}"
 
-    LOG_TEXT_C = "#newChat @nabilanavab/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C = "#newChat @RarelySukuna/@AdultManhwa_nation \n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -146,7 +146,7 @@ __user ID:__ `{file.chat.id}`
                         ],
                     ]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @RarelySukuna/@AdultManhwa_nation 
 #{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`
